@@ -10,7 +10,7 @@ services:
             MYSQL_DATABASE: obo
     
     web :
-        image: saocd/techmaster-obo-web:1.2.0
+        image: saocd/techmaster-obo-web:1.2.1
         depends_on: 
             - mysql
         ports: 
