@@ -34,11 +34,11 @@ COPY . /techmaster-obo-web
 WORKDIR /techmaster-obo-web
 
 # env to connect mysql database
-ENV DB_HOST: localhost
-ENV DB_PORT: 3306
-ENV DB_NAME: obo
-ENV DB_USER: root
-ENV DB_PASSWORD: 123
+ENV DB_HOST="localhost"
+ENV DB_PORT="3306"
+ENV DB_NAME="obo"
+ENV DB_USER="root"
+ENV DB_PASSWORD="123"
 
 RUN mvn install
 
