@@ -16,7 +16,7 @@ services:
         ports: 
             - "8080:8080"
         environment:
-            DB_HOST: 192.168.1.8
+            DB_HOST: mysql
             DB_PORT: 3306
             DB_NAME: obo
             DB_USER: root
